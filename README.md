@@ -179,6 +179,7 @@ Click the **Open in Colab** badge at the top, or follow these steps:
 !git clone https://github.com/raniazitouni/cuda-neural-network-optimization
 %cd cuda-neural-network-optimization
 !make all                            # compile both strategies
+!chmod +x run_compare.sh run_optimized.sh   #to prevent any permission problem
 !./run_compare.sh                    # benchmark both + print speedup table
 ```
 
