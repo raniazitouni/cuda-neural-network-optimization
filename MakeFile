@@ -7,7 +7,7 @@ GCCFLAGS    = -O2 -fopenmp -lm
 OPT_BIN     = nn_optimized
 REF_BIN     = nn_reference
 
-# Sources
+# Sources 
 OPT_SRC     = src/optimized_cuda.cu
 REF_SRC     = reference_code/nn_cuda.cu
 
